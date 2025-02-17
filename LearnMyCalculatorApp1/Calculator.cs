@@ -22,6 +22,20 @@ namespace LearnMyCalculatorApp1
         {
             return x * y;
         }
+        public double SIN(double x)
+        {
+            return Math.Sin(x);
+        }
+
+        public double SIN(double x)
+        {
+            return Math.Sin(x);
+        }
+
+        public double COS(double x)
+        {
+            return Math.Cos(x);
+        }
 
         public double Квадрат(double x)
         {
