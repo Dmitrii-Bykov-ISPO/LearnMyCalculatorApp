@@ -23,6 +23,11 @@ namespace LearnMyCalculatorApp1
             return x * y;
         }
 
+        public double Квадрат(double x)
+        {
+            return x * x;
+        }
+
         public double? Divide(double x, double y)
         {
             try
