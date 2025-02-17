@@ -22,6 +22,7 @@ namespace LearnMyCalculatorApp1
         {
             return x * y;
         }
+
         public double SIN(double x)
         {
             return Math.Sin(x);
