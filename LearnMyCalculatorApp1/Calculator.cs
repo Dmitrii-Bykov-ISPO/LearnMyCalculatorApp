@@ -23,6 +23,11 @@ namespace LearnMyCalculatorApp1
             return x * y;
         }
 
+        public double COS(double x)
+        {
+            return Math.Cos(x);
+        }
+
         public double? Divide(double x, double y)
         {
             try
