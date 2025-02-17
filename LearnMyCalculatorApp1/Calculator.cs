@@ -48,5 +48,11 @@ namespace LearnMyCalculatorApp1
             }
         }
 
+        public double tg(double x)
+        {
+
+            return Math.Tan(x);
+
+        }
     }
 }
