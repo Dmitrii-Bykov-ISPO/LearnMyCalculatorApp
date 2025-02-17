@@ -8,26 +8,38 @@ namespace LearnMyCalculatorApp1
 {
     public class Calculator
     {
-        public int Add(int x, int y)
+        public double Add(double x, double y)
         {
             return x + y;
         }
 
-        public int Subtract(int x, int y)
+        public double Subtract(double x, double y)
         {
             return x - y;
         }
 
-        public int Multiply(int x, int y)
+        public double Multiply(double x, double y)
         {
             return x * y;
         }
 
-        public int? Divide(int x, int y)
+        public double? Divide(double x, double y)
         {
             try
             {
                 return x / y;
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Деление на 0");
+                return null;
+            }
+        }
+        public double? ctg(double x)
+        {
+            try
+            {
+                return 1 / Math.Tan(x);
             }
             catch (DivideByZeroException)
             {
